@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* troca(int* v, int a, int b){
+void troca(int* v, int a, int b){
     int tr;
     tr = v[b];
     v[b] = v[a];
